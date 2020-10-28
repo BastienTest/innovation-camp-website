@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .navbar{
     height: 70px;
     width: 100%;
@@ -58,7 +62,7 @@ h1{
     position: relative;
 }
 
-.bruk{
+#bruk{
  
     width: 100%;
     background-color: cadetblue;
@@ -73,14 +77,14 @@ h2{
 }
 
 h3{
-    font-size: 25px;
+    font-size: 28px;
     margin-left: 40px;
     padding-top: 20px;
     color: white;
 }
 
 p{
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 40px;
     padding-top: 10px;
     color: white;
@@ -90,13 +94,15 @@ p{
     padding-bottom: 35px;
 }
 
-.prod{
+#prod{
     width: 100%;
     background-color: darkolivegreen;
+    
 }
 
 #tek{
     padding-bottom: 20px;
+    font-size: 25px;
 }
 
 .grid1 {
@@ -135,7 +141,6 @@ p{
     flex: 1;
     background-color: rgb(145, 43, 122);
     min-height: 250px;
-    
 }
 
 #img2{
@@ -150,12 +155,13 @@ p{
     flex: 1;
     height: auto;
     background-color: rgb(252, 89, 244);
-    
+  
 }
 .text3{
     flex: 1;
     background-color: rgb(252, 89, 244);
     min-height: 250px;
+    
 }
 
 #img3{
@@ -169,6 +175,38 @@ p{
 .text{
     padding-top: 45px;
     font-size: 25px;
+    padding-right: 30px;
+}
+
+#infra{
+    min-height: 300px;
+    width: 100%;
+    background-color: tomato;
+}
+
+#finans{
+    width: 100%;
+    height: 320px;
+    background-color: aqua;
+}
+.konklusjon{
+    height: auto;
+    width: 100%;
+    background-color: green;
+}
+
+#konk{
+    padding-right: 30px;
+}
+
+#oss{
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+#in{
+    padding-bottom: 20px;
+    padding-right: 30px;
 }
 
 @media screen and (max-width: 700px){
@@ -203,8 +241,18 @@ p{
     li a{
         padding-right: 20px;
         }
-        
+    #finans{
+        height: 500px;
     }
+    #fin{
+        font-size: 20px;
+        padding-right: 20px;
+    }
+    #konk{
+        padding-right: 20px;
+    }
+    }
+
 
 @media screen and (max-width: 371px){
     #introduc{
@@ -217,6 +265,8 @@ p{
     #her{
         font-size: 50px;
     }
+
+    
 
 }
 
